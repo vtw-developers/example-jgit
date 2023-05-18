@@ -17,11 +17,11 @@ import org.eclipse.jgit.transport.UsernamePasswordCredentialsProvider;
 public class JgitUtil {
 
     private static String userId = "qhrud7127";
-    private static String userPass = "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";
+    private static String userPass = "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";
     private static String userName = "kbk";
     private static String userEmail = "qhrud7127@naver.com";
-    private static String hash = "origin/main";
-    private static String url = "https://github.com/vtw-developers/git-test.git";
+    private static String hash = "origin/master";
+    private static String url = "http://github.com/qhrud7127/demo2.git";
     private static CredentialsProvider cp = new UsernamePasswordCredentialsProvider(userId, userPass);
 
     public static Git init(File dir) throws Exception {
